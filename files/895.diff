@@ -1,0 +1,240 @@
+diff --git a/legacy/249030517958/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/249030517958/CustomPolicies/U2R-AWS-Power-Users.yml
+index 4a0655742cb9d6dc23bc5c33a8f2415ccce8b80c..992fcaec263db5d8646f8654bab20af3a8abe01e 100644
+--- a/legacy/249030517958/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/249030517958/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -6,6 +6,7 @@ Attachments:
+   - abhargava
+   - acomley
+   - aj02011
++  - ak01894
+   - amcgookey
+   - annabelwintersmccabe
+   - ap01774
+diff --git a/legacy/249030517958/CustomPolicies/allow-full-access-on-ecr-repo.yml b/legacy/249030517958/CustomPolicies/allow-full-access-on-ecr-repo.yml
+index 72f2d770eb0a36cb66e40246ca4c25902c561baf..0575475f06fb35686d2d62dfc1d72e63344d56f9 100644
+--- a/legacy/249030517958/CustomPolicies/allow-full-access-on-ecr-repo.yml
++++ b/legacy/249030517958/CustomPolicies/allow-full-access-on-ecr-repo.yml
+@@ -1,3 +1,6 @@
+ Name: allow-full-access-on-ecr-repo
+ Arn: 'arn:aws:iam::249030517958:policy/allow-full-access-on-ecr-repo'
+ Path: /
++Attachments:
++  Roles:
++  - ak01894
+diff --git a/legacy/278890653358/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/278890653358/CustomPolicies/U2R-AWS-Power-Users.yml
+index 066f36f2a00a9a387fb455b97794d19ca8e25ece..8c149bf455f4f4c2cff8db63e55d9dc2cbb3772c 100644
+--- a/legacy/278890653358/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/278890653358/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -4,6 +4,7 @@ Path: /u2r/
+ Attachments:
+   Roles:
+   - aj02011
++  - ak01894
+   - amcgookey
+   - annabelwintersmccabe
+   - ap01774
+diff --git a/legacy/278890653358/CustomPolicies/dat-raa-psod.yml b/legacy/278890653358/CustomPolicies/dat-raa-psod.yml
+index 7c0eb8f447cde30fd4fbf23da5219eb23998ceb0..0b095ecf312bdf766546056ccb180abe8019a6ed 100644
+--- a/legacy/278890653358/CustomPolicies/dat-raa-psod.yml
++++ b/legacy/278890653358/CustomPolicies/dat-raa-psod.yml
+@@ -3,6 +3,7 @@ Arn: 'arn:aws:iam::278890653358:policy/dat-raa-psod'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - jh01792
+   - omkar_hatwalne
+   - ram_singaraju
+diff --git a/legacy/278890653358/CustomPolicies/overlord-admin.yml b/legacy/278890653358/CustomPolicies/overlord-admin.yml
+index e3b26365ff97b333a9c64d67fffe3630dd9b840c..c84bba13a190af6f95667bd284ec32339fefa1a9 100644
+--- a/legacy/278890653358/CustomPolicies/overlord-admin.yml
++++ b/legacy/278890653358/CustomPolicies/overlord-admin.yml
+@@ -3,6 +3,7 @@ Arn: 'arn:aws:iam::278890653358:policy/overlord-admin'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - jh01792
+   - omkar_hatwalne
+   - ram_singaraju
+diff --git a/legacy/455570743117/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/455570743117/CustomPolicies/U2R-AWS-Power-Users.yml
+index c1da91f358b50120bb277232a0320b6a91865349..3f7dd0cb8dd205760af2a7aaa49461577a412f16 100644
+--- a/legacy/455570743117/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/455570743117/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -4,6 +4,7 @@ Path: /u2r/
+ Attachments:
+   Roles:
+   - aj02011
++  - ak01894
+   - amcgookey
+   - annabelwintersmccabe
+   - ap01774
+diff --git a/legacy/455570743117/CustomPolicies/dat-raa-psod.yml b/legacy/455570743117/CustomPolicies/dat-raa-psod.yml
+index 97213a347814c43bb5e658ac9419d9c57b3fecd7..7cbcebc057aebf70301db1024f3316586621dbc0 100644
+--- a/legacy/455570743117/CustomPolicies/dat-raa-psod.yml
++++ b/legacy/455570743117/CustomPolicies/dat-raa-psod.yml
+@@ -3,6 +3,7 @@ Arn: 'arn:aws:iam::455570743117:policy/dat-raa-psod'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - mm02065
+   - omkar_hatwalne
+   - ram_singaraju
+diff --git a/legacy/455570743117/CustomPolicies/overlord-admin.yml b/legacy/455570743117/CustomPolicies/overlord-admin.yml
+index 2ff478a6b9114654dc37621693b33f4281dc9fde..7f3a7f51cb6032640a9a635276c64730049d1126 100644
+--- a/legacy/455570743117/CustomPolicies/overlord-admin.yml
++++ b/legacy/455570743117/CustomPolicies/overlord-admin.yml
+@@ -3,6 +3,7 @@ Arn: 'arn:aws:iam::455570743117:policy/overlord-admin'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - mm02065
+   - omkar_hatwalne
+   - ram_singaraju
+diff --git a/legacy/840551294022/AwsManagedPolicies/AWSGlueServiceRole.yml b/legacy/840551294022/AwsManagedPolicies/AWSGlueServiceRole.yml
+index faa05cc9e0d11fd355833f3c49d49410305aad0e..87d5cef9adb58329effda4811ebd0497b4683aea 100644
+--- a/legacy/840551294022/AwsManagedPolicies/AWSGlueServiceRole.yml
++++ b/legacy/840551294022/AwsManagedPolicies/AWSGlueServiceRole.yml
+@@ -5,3 +5,4 @@ Attachments:
+   Roles:
+   - AWSGlueServiceRole-User-Graph
+   - AWSGlueServiceRole-braze
++  - ak01894
+diff --git a/legacy/840551294022/CustomPolicies/AssumeRoleInARA.yml b/legacy/840551294022/CustomPolicies/AssumeRoleInARA.yml
+index e6bd02c6b6f7f9841c90ab70233bf674f0f6685b..e3e9b9ad5cd35c1b91b5115f8274168c44353085 100644
+--- a/legacy/840551294022/CustomPolicies/AssumeRoleInARA.yml
++++ b/legacy/840551294022/CustomPolicies/AssumeRoleInARA.yml
+@@ -3,4 +3,5 @@ Arn: 'arn:aws:iam::840551294022:policy/AssumeRoleInARA'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - dwEtlRole
+diff --git a/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
+index d69827aa0c0ed3d7543ff514ed590fedb33b899a..bf549a06725852bd74a69d6c013858d060dc739f 100644
+--- a/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -4,6 +4,7 @@ Path: /u2r/
+ Attachments:
+   Roles:
+   - abooth
++  - ak01894
+   - amcgookey
+   - aw01834
+   - fwhite
+diff --git a/legacy/840551294022/CustomPolicies/U2R-dart-admins.yml b/legacy/840551294022/CustomPolicies/U2R-dart-admins.yml
+index b635d72a7e79985400371b0cbe66adef2ae73371..d280fb7004c70e2edebbf9fc82452866c544c1a7 100644
+--- a/legacy/840551294022/CustomPolicies/U2R-dart-admins.yml
++++ b/legacy/840551294022/CustomPolicies/U2R-dart-admins.yml
+@@ -1,3 +1,6 @@
+ Name: U2R-dart-admins
+ Arn: 'arn:aws:iam::840551294022:policy/u2r/U2R-dart-admins'
+ Path: /u2r/
++Attachments:
++  Roles:
++  - ak01894
+diff --git a/legacy/871166422776/AwsManagedPolicies/IAMReadOnlyAccess.yml b/legacy/871166422776/AwsManagedPolicies/IAMReadOnlyAccess.yml
+index d3c5c88ec84499002417aaeadf237deaf95eee39..670915987daac0901411eb497d7c782bec35e49c 100644
+--- a/legacy/871166422776/AwsManagedPolicies/IAMReadOnlyAccess.yml
++++ b/legacy/871166422776/AwsManagedPolicies/IAMReadOnlyAccess.yml
+@@ -6,6 +6,7 @@ Attachments:
+   - StackSet-SecretsAclUpdater-SecretsRoleScannerRole-1CZOT2B1ZZUZN
+   - acomley
+   - aj02011
++  - ak01894
+   - amcgookey
+   - annabelwintersmccabe
+   - ap01774
+diff --git a/legacy/871166422776/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/871166422776/CustomPolicies/U2R-AWS-Power-Users.yml
+index 58225e6c9eeafb136d481900ce22f440e54c160c..ec84c564ba7754d88a1325316c6a73f8af3d09cc 100644
+--- a/legacy/871166422776/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/871166422776/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -5,6 +5,7 @@ Attachments:
+   Roles:
+   - acomley
+   - aj02011
++  - ak01894
+   - amcgookey
+   - annabelwintersmccabe
+   - ap01774
+diff --git a/legacy/871166422776/CustomPolicies/U2R-CQMS-S3-RO.yml b/legacy/871166422776/CustomPolicies/U2R-CQMS-S3-RO.yml
+index 40ff5cdcc4ee75a8caf8bb74143d207e03706299..0f5e38e920bfadd4208b80fa229f1493110c1136 100644
+--- a/legacy/871166422776/CustomPolicies/U2R-CQMS-S3-RO.yml
++++ b/legacy/871166422776/CustomPolicies/U2R-CQMS-S3-RO.yml
+@@ -4,6 +4,7 @@ Path: /u2r/
+ Attachments:
+   Roles:
+   - abhargava
++  - ak01894
+   - gnewcomb
+   - jw00309
+   - rs01866
+diff --git a/legacy/871166422776/CustomPolicies/overlord-admin.yml b/legacy/871166422776/CustomPolicies/overlord-admin.yml
+index 55c759d3e848f5ebc6d88a78f8b6c861039d893c..00e94cc37c6989f603851a17a2e8de92912ab5e6 100644
+--- a/legacy/871166422776/CustomPolicies/overlord-admin.yml
++++ b/legacy/871166422776/CustomPolicies/overlord-admin.yml
+@@ -3,6 +3,7 @@ Arn: 'arn:aws:iam::871166422776:policy/overlord-admin'
+ Path: /
+ Attachments:
+   Roles:
++  - ak01894
+   - jh01792
+   - mm02065
+   - ram_singaraju
+diff --git a/legacy/871166422776/CustomPolicies/s3-std-wsm-prd-financial-feeds-rw-access.yml b/legacy/871166422776/CustomPolicies/s3-std-wsm-prd-financial-feeds-rw-access.yml
+index 4cbed1ad009fb56647d1e230f5872991d1937bd6..a872157a9d70f56780bba9ba821841e98cc5cc94 100644
+--- a/legacy/871166422776/CustomPolicies/s3-std-wsm-prd-financial-feeds-rw-access.yml
++++ b/legacy/871166422776/CustomPolicies/s3-std-wsm-prd-financial-feeds-rw-access.yml
+@@ -4,6 +4,7 @@ Path: /
+ Attachments:
+   Roles:
+   - abooth
++  - ak01894
+   - gnewcomb
+   - maryannedryja
+   - mm02065
+diff --git a/privileges b/privileges
+index 61ea8a2717ffce81df728775bbc5499b2732aae1..8a49f4ea3995717d6f80c21bd8cfbad45303c1ad 100644
+--- a/privileges
++++ b/privileges
+@@ -103,6 +103,38 @@ aj02033 395672959192 @Reader
+ aj02033 395672959192 @Staff
+ ak01823 631714410516 .BusinessIntelligence
+ ak01823 842029485983 .BusinessIntelligence
++ak01894 119809719251 @Reader
++ak01894 119809719251 @Staff
++ak01894 213784957902 @EksClusterAdmin
++ak01894 213784957902 @Reader
++ak01894 213784957902 @Staff
++ak01894 213784957902 data-eng-squad
++ak01894 213784957902 dcode-psod-*
++ak01894 213784957902 dcode-user-*
++ak01894 213784957902 eks-user-obr-dev-dw-*
++ak01894 357649774407 @Reader
++ak01894 357649774407 @Staff
++ak01894 402639244087 @Reader
++ak01894 402639244087 @Staff
++ak01894 415375086818 @EksClusterAdmin
++ak01894 415375086818 @Reader
++ak01894 415375086818 @Staff
++ak01894 415375086818 data-eng-squad
++ak01894 415375086818 dcode-psod-*
++ak01894 415375086818 dcode-user-*
++ak01894 415375086818 eks-user-obr-dev-dw-*
++ak01894 459857334855 @Reader
++ak01894 459857334855 @Staff
++ak01894 631714410516 .BusinessIntelligence
++ak01894 653464136140 @Reader
++ak01894 653464136140 @Staff
++ak01894 787427185972 @Reader
++ak01894 787427185972 @Staff
++ak01894 842029485983 .BusinessIntelligence
++ak01894 908074885047 @Reader
++ak01894 908074885047 @Staff
++ak01894 954821168462 @Reader
++ak01894 954821168462 @Staff
+ alubecki 631714410516 .ExtensionDevelopers
+ alubecki 631714410516 .MobileDevelopers
+ alubecki 631714410516 .PoulpeoDevelopers

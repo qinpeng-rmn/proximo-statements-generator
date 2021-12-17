@@ -1,0 +1,58 @@
+diff --git a/privileges b/privileges
+index 891a8eded1ccdfdcbc894a85be006d9939ee10a4..6f6a21230f6559e018f9e93c550e455745307a17 100644
+--- a/privileges
++++ b/privileges
+@@ -539,8 +539,6 @@ ghicks 459514715664 @Reader
+ ghicks 459514715664 @Staff
+ ghicks 476611035200 @Reader
+ ghicks 476611035200 @Staff
+-ghicks 706505439282 @Reader
+-ghicks 706505439282 @Staff
+ ghicks 730917175195 @Reader
+ ghicks 730917175195 @Staff
+ ghicks 842007522200 @Reader
+@@ -1435,8 +1433,6 @@ qin_peng 444352623780 @Reader
+ qin_peng 444352623780 @Staff
+ qin_peng 459514715664 @Reader
+ qin_peng 459514715664 @Staff
+-qin_peng 706505439282 @Reader
+-qin_peng 706505439282 @Staff
+ qin_peng 730917175195 @Reader
+ qin_peng 730917175195 @Staff
+ ql01906 631714410516 .MaReducDevelopers
+@@ -1557,8 +1553,6 @@ rreackhof 629311375156 @Reader
+ rreackhof 629311375156 @Staff
+ rreackhof 697575839920 @Reader
+ rreackhof 697575839920 @Staff
+-rreackhof 706505439282 @Reader
+-rreackhof 706505439282 @Staff
+ rreackhof 780023630740 @Reader
+ rreackhof 780023630740 @Staff
+ rreackhof 784555638741 @Reader
+@@ -1730,8 +1724,6 @@ sonuchauhan 444352623780 @Reader
+ sonuchauhan 444352623780 @Staff
+ sonuchauhan 459514715664 @Reader
+ sonuchauhan 459514715664 @Staff
+-sonuchauhan 706505439282 @Reader
+-sonuchauhan 706505439282 @Staff
+ sonuchauhan 730917175195 @Reader
+ sonuchauhan 730917175195 @Staff
+ sp02010 140230471469 @Reader
+@@ -1839,8 +1831,6 @@ tsansbury 629311375156 @Staff
+ tsansbury 697575839920 @EksClusterAdmin
+ tsansbury 697575839920 @Reader
+ tsansbury 697575839920 @Staff
+-tsansbury 706505439282 @Reader
+-tsansbury 706505439282 @Staff
+ tsansbury 784555638741 @Reader
+ tsansbury 784555638741 @Staff
+ tsansbury 787427185972 @Reader
+@@ -1968,8 +1958,6 @@ warrencastro 444352623780 @Reader
+ warrencastro 444352623780 @Staff
+ warrencastro 459514715664 @Reader
+ warrencastro 459514715664 @Staff
+-warrencastro 706505439282 @Reader
+-warrencastro 706505439282 @Staff
+ warrencastro 730917175195 @Reader
+ warrencastro 730917175195 @Staff
+ ww01686 114420962703 @Reader

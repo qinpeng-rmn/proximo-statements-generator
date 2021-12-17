@@ -1,0 +1,114 @@
+diff --git a/legacy/249030517958/CustomPolicies/U2R-AWS-Admins.yml b/legacy/249030517958/CustomPolicies/U2R-AWS-Admins.yml
+index 8652ec4183d8c821292b693aaab48597ab8746fc..6f2cf24a8bc044147481787239250298ade7a658 100644
+--- a/legacy/249030517958/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/249030517958/CustomPolicies/U2R-AWS-Admins.yml
+@@ -7,6 +7,7 @@ Attachments:
+   - ghicks
+   - mstuparu
+   - pmeta-mon-test
++  - qin_peng
+   - sonu_chauhan
+   - sonuchauhan
+   - warrencastro
+diff --git a/legacy/278890653358/CustomPolicies/U2R-AWS-Admins.yml b/legacy/278890653358/CustomPolicies/U2R-AWS-Admins.yml
+index a2d88eea6b8ab9691165f062ff3c6f5a5849c231..f65a849df1f2620b823e6ce508d1805364a0e8a7 100644
+--- a/legacy/278890653358/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/278890653358/CustomPolicies/U2R-AWS-Admins.yml
+@@ -11,6 +11,7 @@ Attachments:
+   - leehanel
+   - luke_schulz
+   - mv01727
++  - qin_peng
+   - snesmith
+   - sonu_chauhan
+   - sonuchauhan
+diff --git a/legacy/455570743117/CustomPolicies/U2R-AWS-Admins.yml b/legacy/455570743117/CustomPolicies/U2R-AWS-Admins.yml
+index 30ba05b6950837a8489bd88a85f56d8c1370a1c9..7b27f4ec1707ecb14f7741f4fe0a9633ea431a22 100644
+--- a/legacy/455570743117/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/455570743117/CustomPolicies/U2R-AWS-Admins.yml
+@@ -10,6 +10,7 @@ Attachments:
+   - leehanel
+   - luke_schulz
+   - mv01727
++  - qin_peng
+   - sonu_chauhan
+   - sonuchauhan
+   - warrencastro
+diff --git a/legacy/750876715910/CustomPolicies/U2R-AWS-Admins.yml b/legacy/750876715910/CustomPolicies/U2R-AWS-Admins.yml
+index 804ff8a9470a9837ee045e24b49bc934ecda7024..e1bf7183895d25e8e93bb3936694b5c4336cd8b0 100644
+--- a/legacy/750876715910/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/750876715910/CustomPolicies/U2R-AWS-Admins.yml
+@@ -10,6 +10,7 @@ Attachments:
+   - leehanel
+   - luke_schulz
+   - nc01864
++  - qin_peng
+   - sonu_chauhan
+   - sonuchauhan
+   - vmorvan
+diff --git a/legacy/840551294022/CustomPolicies/U2R-AWS-Admins.yml b/legacy/840551294022/CustomPolicies/U2R-AWS-Admins.yml
+index b6226b95e0f63752d000d22a43318a82a34d2ca3..ff2c7d5a7f11772cb9b5143ead9a0d3570494582 100644
+--- a/legacy/840551294022/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/840551294022/CustomPolicies/U2R-AWS-Admins.yml
+@@ -4,6 +4,7 @@ Path: /u2r/
+ Attachments:
+   Roles:
+   - ghicks
++  - qin_peng
+   - sonu_chauhan
+   - sonuchauhan
+   - warrencastro
+diff --git a/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml b/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
+index bf549a06725852bd74a69d6c013858d060dc739f..477972a31c780cbce77bcf10aa8eae823d9a37d7 100644
+--- a/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
++++ b/legacy/840551294022/CustomPolicies/U2R-AWS-Power-Users.yml
+@@ -21,6 +21,7 @@ Attachments:
+   - omkar_hatwalne
+   - pharez_varlack
+   - pmacklin
++  - qin_peng
+   - rwestwood
+   - shussain
+   - sonu_chauhan
+diff --git a/legacy/871166422776/CustomPolicies/U2R-AWS-Admins.yml b/legacy/871166422776/CustomPolicies/U2R-AWS-Admins.yml
+index 4c0e15a4046b870b74db266bb1f93893848f37bc..090b42d71d2208a382f0d64c755b09bbf51e23b4 100644
+--- a/legacy/871166422776/CustomPolicies/U2R-AWS-Admins.yml
++++ b/legacy/871166422776/CustomPolicies/U2R-AWS-Admins.yml
+@@ -14,6 +14,7 @@ Attachments:
+   - leehanel
+   - luke_schulz
+   - mstuparu
++  - qin_peng
+   - sonu_chauhan
+   - sonuchauhan
+   - warrencastro
+diff --git a/privileges b/privileges
+index 8a49f4ea3995717d6f80c21bd8cfbad45303c1ad..891a8eded1ccdfdcbc894a85be006d9939ee10a4 100644
+--- a/privileges
++++ b/privileges
+@@ -1420,6 +1420,25 @@ pmacklin 910316543662 @Reader
+ pmacklin 910316543662 @Staff
+ pmacklin 934577454729 @Reader
+ pmacklin 934577454729 @Staff
++qin_peng 140230471469 @Reader
++qin_peng 140230471469 @Staff
++qin_peng 144028019382 @Reader
++qin_peng 144028019382 @Staff
++qin_peng 176845980324 @Reader
++qin_peng 176845980324 @Staff
++qin_peng 288313784527 @Reader
++qin_peng 288313784527 AccountAdmin
++qin_peng 288313784527 UserAdministration
++qin_peng 395672959192 @Reader
++qin_peng 395672959192 @Staff
++qin_peng 444352623780 @Reader
++qin_peng 444352623780 @Staff
++qin_peng 459514715664 @Reader
++qin_peng 459514715664 @Staff
++qin_peng 706505439282 @Reader
++qin_peng 706505439282 @Staff
++qin_peng 730917175195 @Reader
++qin_peng 730917175195 @Staff
+ ql01906 631714410516 .MaReducDevelopers
+ ql01906 842029485983 .MaReducDevelopers
+ ram_singaraju 119809719251 @Reader
